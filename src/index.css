@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.svg-background {
+    background-image: url('data:image/svg+xml;utf8,/* Encoded SVG content here */');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.custom-svg-background {
+    @apply h-screen;
+}
